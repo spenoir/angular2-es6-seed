@@ -4,7 +4,7 @@ export class NameList {
   get(): string[] {
     return this.names;
   }
-  add(value: string): void {
+  add(value: string) {
     this.names.push(value);
   }
 }
